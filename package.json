@@ -1,0 +1,15 @@
+{
+  "name": "vscode-writing-template",
+  "version": "0.1.0",
+  "description": "A template repository for writing projects",
+  "main": "index.js",
+  "scripts": {
+    "wordcount": "node scripts/wordcount.js",
+    "compile": "node scripts/compile.js"
+  },
+  "author": "Eddy Luten",
+  "license": "MIT",
+  "dependencies": {
+    "glob": "^7.1.4"
+  }
+}

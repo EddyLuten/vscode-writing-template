@@ -1,0 +1,44 @@
+{
+	"settings": {
+		// Editor config
+		"editor.wordWrapColumn": 80,
+		"editor.wordWrap": "wordWrapColumn",
+		"files.insertFinalNewline": true,
+
+		// Zen Mode config
+		"zenMode.centerLayout": true,
+		"zenMode.fullScreen": true,
+		"zenMode.restore": true,
+		"zenMode.hideActivityBar": true,
+
+		// Markdown and preview config
+		"markdown.preview.fontSize": 22,
+		"markdown.preview.fontFamily": "'Source Serif Pro Light', Serif",
+		"[markdown]": {
+			"editor.fontSize": 22,
+			"editor.fontFamily": "'Source Serif Pro Light', Serif",
+			"editor.wordWrap": "bounded",
+			"editor.lineNumbers": "interval",
+			"editor.quickSuggestions": {
+				"other": false,
+				"comments": false,
+				"strings": false
+			}
+		},
+
+		"markdownlint.config": {
+			"MD033": false // allow HTML literals
+		}
+	},
+	"extensions": {
+		"recommendations": [
+			"DavidAnson.vscode-markdownlint",
+			"ms-vscode.wordcount",
+		]
+	},
+	"folders": [
+		{
+			"path": ".",
+		}
+	]
+}
